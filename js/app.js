@@ -38,7 +38,7 @@ const renderCards = (articles) => {
             <div class="inner">
               <h2 class="title">${article.title}</h2>
               <p class="description">${article.description}</p>
-              <span class="ribbon">${article.sources.name}</span>
+              <span class="ribbon">${article.source.name}</span>
             </div>
         </div>
       `;
